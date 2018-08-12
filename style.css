@@ -1,23 +1,15 @@
 @import url(./clearfix.css);
 
-h1 {
-  color: green;
-  text-align: center;
-}
-
 .landscape-container {
   background-color: #091134;
-  height: 344px;
+  /* height: 344px; */
 }
 
 .landscape {
   /* background-image: url(./assets/images/landscape_1024.png); */
   background-repeat: no-repeat;
-  /* background-size: 100%; */
-  /* width: 1024px; */
   height: 344px;
   margin: auto;
-  /* background-color: yellow; */
 }
 
 .bricking {
@@ -26,17 +18,65 @@ h1 {
   background-repeat: no-repeat;
   width: 100%;
   height: 474px;
-  /* margin: auto; */
+  display: flex;
+  align-items: center;
 }
 
 .site-body {
   padding-top: 23px;
   background-color: #091134;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
+
+.logo-container {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  padding-top: 115px;
+}
+
+.logo {
+  /* margin: auto; */
+  margin-bottom: 50px;
+}
+
+.contents {
+  display: flex;
+  flex-direction: column;
+}
+
+.content-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.content-item img {
+  width: 300px;
+}
+
+.footer {
+  font-family: AvenirNextCondensed-Regular;
+  color: #00E5B2;
+  text-align: center;
+  font-size: 24px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.footer p {
+  margin: 5px;
+}
+
 
 @media (max-width: 320px) {
   .landscape {
     background-image: url(./assets/images/landscape_320.png);
+    height: 320px;
   }
 
   .bricking {
@@ -47,6 +87,7 @@ h1 {
 @media (min-width: 321px) {
   .landscape {
     background-image: url(./assets/images/landscape_768.png);
+    height: 320px;
   }
 
   .bricking {
@@ -64,16 +105,28 @@ h1 {
   .landscape {
     background-image: url(./assets/images/landscape_1024.png);
   }
+
+  .bricking {
+    background-image: url(./assets/images/bricking_1024.png);
+  }
 }
 
 @media (min-width: 1025px) {
   .landscape {
     background-image: url(./assets/images/landscape_1440.png);
   }
+
+  .bricking {
+    background-image: url(./assets/images/bricking_1440.png);
+  }
 }
 
 @media (min-width: 1441px) {
   .landscape {
     background-image: url(./assets/images/landscape_2048.png);
+  }
+
+  .bricking {
+    background-image: url(./assets/images/bricking_2048.png);
   }
 }
