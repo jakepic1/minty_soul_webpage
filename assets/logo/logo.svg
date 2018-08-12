@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="127px" height="166px" viewBox="0 0 127 166" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M63.5,0.5 C105.5,31.4007002 126.5,68.0955258 126.5,110.584477 C126.5,160.689536 105.5,184.97173 63.5,183.431059 C21.5,184.97173 0.5,160.689536 0.5,110.584477 C0.5,68.0955258 21.5,31.4007002 63.5,0.5 Z" id="path-1"></path>
+        <linearGradient x1="50%" y1="50%" x2="0%" y2="50%" id="linearGradient-3">
+            <stop stop-color="#00FFE1" offset="0%"></stop>
+            <stop stop-color="#24B372" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="linearGradient-4">
+            <stop stop-color="#00FFE1" offset="0%"></stop>
+            <stop stop-color="#24B372" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="logo/color">
+            <g id="logo">
+                <g id="Mask-+-Combined-Shape-Copy-2-+-Combined-Shape-Copy-3-Mask">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Mask"></g>
+                    <g id="4" mask="url(#mask-2)">
+                        <g transform="translate(-1.000000, 75.000000)">
+                            <polygon id="white" fill="url(#linearGradient-3)" points="129 0 129 16 64.5 53.25 8.77448748e-15 16 0 4.26325641e-14 64.5 37.25"></polygon>
+                            <polygon id="green" fill="url(#linearGradient-4)" points="129 0 129 16 64.5 53.25 64.5 37.25"></polygon>
+                        </g>
+                    </g>
+                    <g id="5" mask="url(#mask-2)">
+                        <g transform="translate(-1.000000, 107.000000)">
+                            <polygon id="white" fill="url(#linearGradient-3)" points="16 25.2403101 16 66 0 66 3.56344335e-14 4.26325641e-14 64.5 37.25 129 0 129 16 64.5 53.25"></polygon>
+                            <polygon id="green" fill="url(#linearGradient-4)" points="128.5 16.2887597 128.5 66 112.5 66 112.5 25.5290698 64.5 53.25 64.5 37.25 129 0 129 16"></polygon>
+                        </g>
+                    </g>
+                    <g id="3" mask="url(#mask-2)">
+                        <g transform="translate(-1.000000, 43.000000)">
+                            <polygon id="white" fill="url(#linearGradient-3)" points="129 0 129 16 64.5 53.25 8.77448748e-15 16 0 4.26325641e-14 64.5 37.25"></polygon>
+                            <polygon id="green" fill="url(#linearGradient-4)" points="129 0 129 16 64.5 53.25 64.5 37.25"></polygon>
+                        </g>
+                    </g>
+                    <g id="2" mask="url(#mask-2)">
+                        <g transform="translate(-1.000000, 11.000000)">
+                            <polygon id="white" fill="url(#linearGradient-3)" points="129 0 129 16 64.5 53.25 8.77448748e-15 16 0 4.26325641e-14 64.5 37.25"></polygon>
+                            <polygon id="green" fill="url(#linearGradient-4)" points="129 0 129 16 64.5 53.25 64.5 37.25"></polygon>
+                        </g>
+                    </g>
+                    <g id="1" mask="url(#mask-2)">
+                        <g transform="translate(-1.000000, -37.000000)">
+                            <polygon id="white" fill="url(#linearGradient-3)" points="129 0 129 32 64.5 69.25 1.7548975e-14 32 0 4.26325641e-14 64.5 37.25"></polygon>
+                            <polygon id="green" fill="url(#linearGradient-4)" points="129 0 129 32 64.5 69.25 64.5 37.25"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

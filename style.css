@@ -1,4 +1,79 @@
+@import url(./clearfix.css);
+
 h1 {
   color: green;
   text-align: center;
+}
+
+.landscape-container {
+  background-color: #091134;
+  height: 344px;
+}
+
+.landscape {
+  /* background-image: url(./assets/images/landscape_1024.png); */
+  background-repeat: no-repeat;
+  /* background-size: 100%; */
+  /* width: 1024px; */
+  height: 344px;
+  margin: auto;
+  /* background-color: yellow; */
+}
+
+.bricking {
+  background-image: url(./assets/images/bricking_1024.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 474px;
+  /* margin: auto; */
+}
+
+.site-body {
+  padding-top: 23px;
+  background-color: #091134;
+}
+
+@media (max-width: 320px) {
+  .landscape {
+    background-image: url(./assets/images/landscape_320.png);
+  }
+
+  .bricking {
+    background-image: url(./assets/images/bricking_320.png);
+  }
+}
+
+@media (min-width: 321px) {
+  .landscape {
+    background-image: url(./assets/images/landscape_768.png);
+  }
+
+  .bricking {
+    background-image: url(./assets/images/bricking_768.png);
+  }
+}
+
+/* @media (min-width: 768px) {
+  .landscape {
+    background-image: url(./assets/images/landscape_768.png);
+  }
+} */
+
+@media (min-width: 769px) {
+  .landscape {
+    background-image: url(./assets/images/landscape_1024.png);
+  }
+}
+
+@media (min-width: 1025px) {
+  .landscape {
+    background-image: url(./assets/images/landscape_1440.png);
+  }
+}
+
+@media (min-width: 1441px) {
+  .landscape {
+    background-image: url(./assets/images/landscape_2048.png);
+  }
 }
