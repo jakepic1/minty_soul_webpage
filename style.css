@@ -72,7 +72,7 @@
 }
 
 .content-item-text {
-  padding-left: 20px;
+  padding-left: 30px;
   padding-top: 20px;
   font-family: AvenirNextCondensed-Regular;
   font-size: 20px;
@@ -84,6 +84,19 @@
   font-size: 24px;
   font-weight: bold;
   padding-bottom: 10px;
+}
+
+.question-mark {
+  width: 359px;
+  height: 202px;
+  border: 4px solid #00BDBE;
+  color: #00BDBE;
+  font-family: AvenirNextCondensed-DemiBold;
+  font-size: 72px;
+  color: #00BDBE;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .footer {
