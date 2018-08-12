@@ -20,6 +20,7 @@
   height: 474px;
   display: flex;
   align-items: center;
+  margin-bottom: 30px;
 }
 
 .site-body {
@@ -34,26 +35,36 @@
   margin: auto;
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
+  justify-content: center;
+  align-items: center;
   padding-top: 115px;
+  padding-left: 20px;
+  font-family: AvenirNextCondensed-Regular;
+  font-size: 28px;
+  color: #00E5B2;
+  letter-spacing: 1px;
+}
+
+.logo-container p {
+  margin-top: 50px;
 }
 
 .logo {
-  /* margin: auto; */
   margin-bottom: 50px;
 }
 
 .contents {
   display: flex;
   flex-direction: column;
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 
 .content-item {
   display: flex;
   flex-direction: row;
-  /* justify-content: center; */
-  align-items: center;
-
+  align-items: end;
+  margin: 40px;
 }
 
 .content-item img {
@@ -62,6 +73,7 @@
 
 .content-item-text {
   padding-left: 20px;
+  padding-top: 20px;
   font-family: AvenirNextCondensed-Regular;
   font-size: 20px;
   color: #00BDBE;
