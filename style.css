@@ -1,5 +1,10 @@
 @import url(./clearfix.css);
 
+body {
+  background-color: #38075C;
+  /* background-color: #3E0046; */
+}
+
 .landscape-container {
   background-color: #091134;
   /* height: 344px; */
@@ -42,11 +47,23 @@
   justify-content: center;
   align-items: center;
   padding-top: 115px;
-  padding-left: 20px;
   font-family: AvenirNextCondensed-Regular;
-  font-size: 28px;
+  font-size: 24px;
   color: #00E5B2;
   letter-spacing: 1px;
+}
+
+.logo-shine {
+  /* opacity: 0.33; */
+  margin-top: -70px;
+  background-image: radial-gradient(50% 50%, rgba(161,0,255,0.15) 49%, rgba(36,179,114,0.00) 100%);
+  z-index: 1;
+  height: 370px;
+  width: 370px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
 }
 
 .logo-container p {
@@ -54,7 +71,11 @@
 }
 
 .logo {
-  margin-bottom: 50px;
+
+}
+
+.wordmark {
+  margin-top: 300px;
 }
 
 .contents {
@@ -77,8 +98,9 @@
 
 .content-item-text {
   padding-left: 30px;
-  padding-top: 20px;
+  padding-top: 10px;
   font-family: AvenirNextCondensed-Regular;
+  /* font-family: 'Roboto Condensed', sans-serif; */
   font-size: 20px;
   color: #00BDBE;
   width: 300px;
@@ -87,7 +109,11 @@
 .content-item-title {
   font-size: 24px;
   font-weight: bold;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
+}
+
+.content-item p {
+  padding-top: 5px;
 }
 
 .question-mark {
@@ -101,6 +127,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #062143;
+  font-stretch: condensed;
 }
 
 .footer {
@@ -139,11 +167,30 @@
   }
 }
 
-/* @media (min-width: 768px) {
-  .landscape {
-    background-image: url(./assets/images/landscape_768.png);
+@media (max-width: 768px) {
+  .content-item {
+    flex-direction: column;
   }
-} */
+
+  .content-item-text {
+    padding-top: 25px;
+    padding-left: 5px;
+  }
+
+  .content-item img {
+    width: 293px;
+    height: 168px;
+  }
+
+  .question-mark {
+    width: 293px;
+    height: 168px;
+  }
+
+  .wordmark {
+    width: 300px;
+  }
+}
 
 @media (min-width: 769px) {
   .landscape {
