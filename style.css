@@ -51,12 +51,27 @@
 .content-item {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: baseline;
+  /* justify-content: center; */
+  align-items: center;
+
 }
 
 .content-item img {
+  width: 367px;
+}
+
+.content-item-text {
+  padding-left: 20px;
+  font-family: AvenirNextCondensed-Regular;
+  font-size: 20px;
+  color: #00BDBE;
   width: 300px;
+}
+
+.content-item-title {
+  font-size: 24px;
+  font-weight: bold;
+  padding-bottom: 10px;
 }
 
 .footer {
