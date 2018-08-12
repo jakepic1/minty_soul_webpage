@@ -13,6 +13,7 @@ body {
 .landscape {
   /* background-image: url(./assets/images/landscape_1024.png); */
   background-repeat: no-repeat;
+  background-position: center;
   height: 344px;
   margin: auto;
 }
