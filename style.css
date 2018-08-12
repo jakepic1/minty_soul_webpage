@@ -56,10 +56,10 @@ body {
 .logo-shine {
   /* opacity: 0.33; */
   margin-top: -70px;
-  background-image: radial-gradient(50% 50%, rgba(161,0,255,0.15) 49%, rgba(36,179,114,0.00) 100%);
+  background-image: radial-gradient(50% 50%, rgba(161,0,255,0.10) 49%, rgba(36,179,114,0.00) 100%);
   z-index: 1;
-  height: 370px;
-  width: 370px;
+  height: 400px;
+  width: 400px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -68,10 +68,6 @@ body {
 
 .logo-container p {
   margin-top: 50px;
-}
-
-.logo {
-
 }
 
 .wordmark {
@@ -168,6 +164,10 @@ body {
 }
 
 @media (max-width: 768px) {
+  .logo {
+    width: 100px;
+  }
+
   .content-item {
     flex-direction: column;
   }
@@ -188,7 +188,7 @@ body {
   }
 
   .wordmark {
-    width: 300px;
+    width: 250px;
   }
 }
 
