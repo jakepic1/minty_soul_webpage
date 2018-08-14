@@ -161,6 +161,10 @@ body {
 }
 
 @media (max-width: 768px) {
+  .landscape {
+    /* background-position: left; */
+  }
+
   .logo {
     width: 100px;
   }
