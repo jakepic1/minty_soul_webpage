@@ -174,7 +174,7 @@ body {
 
 @media (max-width: 768px) {
   .landscape {
-    background-position: left;
+    /* background-position: left; */
   }
 
   .logo {
