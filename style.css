@@ -82,7 +82,8 @@ body {
   display: flex;
   flex-direction: row;
   align-items: end;
-  margin: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .content-item img {
@@ -160,9 +161,16 @@ body {
   }
 }
 
+@media (max-width: 400px) {
+  .logo-shine {
+    height: 320px;
+    width: 320px;
+  }
+}
+
 @media (max-width: 768px) {
   .landscape {
-    /* background-position: left; */
+    background-position: left;
   }
 
   .logo {
