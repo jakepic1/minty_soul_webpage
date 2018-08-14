@@ -140,6 +140,10 @@ body {
 
 
 @media (max-width: 320px) {
+  body {
+    background-color: #091134;
+  }
+
   .landscape {
     background-image: url(./assets/images/landscape_320.png);
     height: 320px;
