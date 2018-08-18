@@ -145,7 +145,7 @@ body {
   }
 
   .landscape {
-    background-image: url(./assets/images/landscape_320.png);
+    background-image: url(./assets/images/landscape_320.jpg);
     height: 320px;
   }
 
@@ -156,7 +156,7 @@ body {
 
 @media (min-width: 321px) {
   .landscape {
-    background-image: url(./assets/images/landscape_768.png);
+    background-image: url(./assets/images/landscape_768.jpg);
     height: 320px;
   }
 
@@ -225,7 +225,7 @@ body {
 
 @media (min-width: 769px) {
   .landscape {
-    background-image: url(./assets/images/landscape_1024.png);
+    background-image: url(./assets/images/landscape_1024.jpg);
     height: 296px;
   }
 
@@ -236,7 +236,7 @@ body {
 
 @media (min-width: 1025px) {
   .landscape {
-    background-image: url(./assets/images/landscape_1440.png);
+    background-image: url(./assets/images/landscape_1440.jpg);
   }
 
   .bricking {
@@ -246,7 +246,7 @@ body {
 
 @media (min-width: 1441px) {
   .landscape {
-    background-image: url(./assets/images/landscape_2048.png);
+    background-image: url(./assets/images/landscape_2048.jpg);
   }
 
   .bricking {
